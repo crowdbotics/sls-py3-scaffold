@@ -1,20 +1,5 @@
-# {{cookiecutter.service_name}}
+# Crowdbotics Python 3 Serverless Function Scaffold
 
-This is a repository for a cloud function developed with [Crowdbotics](https://www.crowdbotics.com/)
+This repository contains a scaffold which generates a basic serverless function in Python 3. It uses the [Serverless](https://serverless.com/) framework, and is written to be deployed to AWS Lambda.
 
-## Features
-
-* Uses the [Serverless](https://serverless.com/) framework.
-* Build to deploy to [AWS Lambda](https://aws.amazon.com/lambda/).
-* Provides a single REST endpoint at `GET /hello`.
-* Uses Python 3.7.
-
-## Getting Started
-
-1. [Install](https://serverless.com/framework/docs/getting-started/) the Serverless framework on your local machine.
-2. [Configure](https://serverless.com/framework/docs/providers/aws/guide/credentials/) your AWS provider credentials for Serverless framework.
-3. `$ cd <clone root directory>`
-4. `$ serverless deploy -v`
-5. Invoke the function:
-    `$ serverless invoke -f hello`
-
+Currently, this scaffold does not deploy, but that's coming soon! So, stay tuned for updates.
