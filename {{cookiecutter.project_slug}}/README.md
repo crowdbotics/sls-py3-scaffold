@@ -1,4 +1,4 @@
-# {{cookiecutter.service_name}}
+# {{cookiecutter.project_slug}}
 
 This is a repository for a cloud function developed with [Crowdbotics](https://www.crowdbotics.com/)
 
