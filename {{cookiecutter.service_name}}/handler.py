@@ -3,8 +3,7 @@ import json
 
 def hello(event, context):
     body = {
-        "message": "Congratulations! You just released your first serverless function - {{cookiecutter.service_name}} - with Crowdbotics! Reward yourself! Grab a cup of coffee!",
-        "input": event
+        "message": "Congratulations! You just released your first serverless function - {{cookiecutter.service_name}} - with Crowdbotics! Reward yourself! Grab a cup of coffee!"
     }
 
     response = {
